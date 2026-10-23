@@ -1,0 +1,115 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    background-image: url('../SunsetRiders/Imagens/bg1_sunsetr.png');
+    /* Substitua pelo caminho da sua imagem */
+    background-size: cover;
+    /* Ajusta a imagem para cobrir toda a tela */
+    background-position: center;
+    /* Centraliza a imagem */
+    background-color: #f4f4f4;
+    font-family: "Bangers", sans-serif;
+    padding: 20px;
+}
+
+.nome {
+    color: #E9B936;
+    text-align: center;
+    margin-top: 10px;
+    position: absolute;
+    bottom: 300px;
+    width: 100%;
+    font-size: 480px;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.personagem {
+    position: absolute;
+    bottom: 0;
+    margin: auto;
+    left: 0;
+    right: 0;
+    height: 700px;
+}
+
+.textos {
+    position: absolute;
+    bottom: 20px;
+    left: 40px;
+    color: #FFF;
+}
+
+h1 {
+    font-size: 60px;
+}
+
+.game {
+    color: #DDD;
+    text-shadow: 1px 1px 2px orangered;
+    font-family: "Ewert", serif;
+    font-size: 50px;
+}
+
+.ng-texto {
+    color: #FFF;
+    font-size: 15px;
+}
+
+.menu {
+    bottom: 40px;
+    position: absolute;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.avatar {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    
+    border: 3px solid whitesmoke;
+}
+
+.user {
+    color: #FFF;
+    padding: 10px;
+    border-radius: 50%;
+    border: 3px solid whitesmoke;
+    background-color: rgba(10, 10, 10, 0.5);
+    font-size: 25px;
+}
+
+
+
+
+
+.gta {
+  transition: transform 0.2s ease;
+  transform-style: preserve-3d;
+}
+/* Ativar o movimento do personagem no documento style.js
+
+    elemento.style.left = "100px";
+    */
+
+
+/* 
+
+    h1 --> seletor
+    color --> propriedade
+    SEMPRE colocar ; no final da propriedade
+    SEMPRE separar propriedade e valor com :
+
+*/
