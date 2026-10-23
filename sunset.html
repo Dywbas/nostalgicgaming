@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+
+<html lang='pt-br'>
+
+
+<head>
+    <meta charset='utf-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bangers&family=Ewert&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap"
+        rel="stylesheet">
+
+    <link rel='stylesheet' href='sunsetai.css'>
+
+    <title>NG | Nostalgic Gaming</title>
+</head>
+
+
+<body>
+    <p class="nome">Steve</p>
+
+    <img src="../SunsetRiders/Imagens/steve.png" class="personagem">
+
+    <div class="textos">
+
+        <p class="game">Sunset Riders</p>
+        <h1>Jogar faz parte do <br>meu código fonte</h1>
+        <p class="ng-texto">Nostalgic Gaming: trazendo você para dentro dos jogos mais icônicos<br> da história, uma
+            referência de cada vez.
+        </p>
+
+    </div>
+
+    <div class="menu">
+
+        <img onclick="mudarNome('Steve','../SunsetRiders/Imagens/steve.png','#E9B936')" class="avatar" src="../SunsetRiders/Imagens/steve00.png">
+
+        <img onclick="mudarNome('Billy','../SunsetRiders/Imagens/billy.png','#315D9B')" class="avatar" src="../SunsetRiders/Imagens/billy00.png">
+
+        <img onclick="mudarNome('Bob','../SunsetRiders/Imagens/bob.png','#416B42')" class="avatar" src="../SunsetRiders/Imagens/bob00.png">
+
+        <img onclick="mudarNome('Cormano','../SunsetRiders/Imagens/cormano01.png','#A50050')" class="avatar" src="../SunsetRiders/Imagens/cormano00.png">
+
+        <label class="user">
+            <input type="file" accept="image/*" hidden onchange="lerFoto(this)">📸
+        </label>
+    </div>
+
+</body>
+
+<script src="https://js.puter.com/v2/"></script>
+<script src="scriptsai.js"></script>
+
+</html>
